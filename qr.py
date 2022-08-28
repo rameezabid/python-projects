@@ -1,4 +1,4 @@
-#Generate a QR code for any text/link.
+#Generate a QR code for any text/link. In the end, it automatically opens up the newly generated QR code image file.
 
 import os
 import qrcode
