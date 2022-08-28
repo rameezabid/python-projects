@@ -1,3 +1,5 @@
+#Generate a QR code for any text/link.
+
 import os
 import qrcode
 
