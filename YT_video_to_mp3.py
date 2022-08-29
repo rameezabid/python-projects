@@ -1,4 +1,4 @@
-#Convert any YouTube video to mp3.
+#Convert any single YouTube video to mp3.
 
 import youtube_dl
 def run():
