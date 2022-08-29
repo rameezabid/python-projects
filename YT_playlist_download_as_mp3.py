@@ -7,7 +7,7 @@ import youtube_dl
 playlistLink = input("YouTube Playlist Link: ")
 playlist = Playlist(playlistLink)
 
-print("Total video to download: ", len(playlist.video_urls))
+print("Total videos to download: ", len(playlist.video_urls))
 
 for url in playlist.video_urls:
     video_info = youtube_dl.YoutubeDL().extract_info(
