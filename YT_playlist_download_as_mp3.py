@@ -1,4 +1,5 @@
 #Download all videos in a YouTube playlist as mp3s. Make sure the playlist has public access!
+#Be sure to install pytube and youtube_dl before running python.
 
 from pytube import Playlist
 import youtube_dl
