@@ -1,7 +1,9 @@
+#Download all videos in a YouTube playlist as mp3s.
+
 from pytube import Playlist
 import youtube_dl
 
-playlistLink = "https://www.youtube.com/playlist?list=PLxABjUBW0BxGHiaoBpO3ipIRQG7nbVOHa"
+playlistLink = "INSERT YT PLAYLIST LINK HERE"
 playlist = Playlist(playlistLink)
 
 print("Total video to download: ", len(playlist.video_urls))
